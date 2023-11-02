@@ -1,0 +1,15 @@
+body{
+    background-color: #000000;
+}
+.Titulo1{
+    color: #ffffff;
+    line-height: 40px;
+}
+.T1Para1{
+    color: #ffffff;
+    width: 24;
+    max-height: 800px;
+}
+.form{
+    max-width: 1000px;
+}
