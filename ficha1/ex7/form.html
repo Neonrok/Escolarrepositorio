@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <fieldset >
+        <legend>Personal Info</legend>
+        <label>name</label>
+        <input type="text" pattern="[A-Z][a-z]+\s[A-Z][a-z]+" required>
+        <br>
+        <input type="radio" name="gender" value="Y">Membro
+        <input type="radio" name="gender" value="N">Não Membro
+        <br>
+        <label>e-mail</label>
+        <input type="email">
+        
+    </fieldset>
+    <fieldset>
+        <legend>Reserve Info</legend>
+        <label>facility</label>
+        <select name="type" id="reserve">
+            <option value="0"></option>
+            <option value="Bad">Badminton</option>
+            <option value="Sqh">Squash</option>
+            <option value="Rac">Racequetball</option>
+        </select>
+        <br>
+        <label>select a reservatioon date and time</label>
+        <input type="date">
+        <input type="time">
+        <br>
+        <input type="checkbox" value="T">
+        <label>i agree to the evil corp</label>
+    </fieldset>
+    <input type="submit">
+</body>
+</html>

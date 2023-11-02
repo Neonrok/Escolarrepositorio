@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label>nome</label>
+        <input type="text" required minlength="3" placeholder="escreva o nome">
+        <br>
+        <label>E-mail</label>
+        <input type="email" required placeholder="escreva o email">
+        <br>
+        <label>idade</label>
+        <input type="number" required>
+        <br>
+        <label>país</label>
+        <select name="país" id="nat-">
+            <option value="-nd-">escolha o pais</option>
+            <option value="pt">portugal</option>
+            <option value="en">inglaterra</option>
+            <option value="es">espanha</option>
+        </select>
+        <br>
+        <label>Data de nascimento</label>
+        <input type="date" name="dd/mm/aa" required>
+        <br>
+        <label>pass-word</label>
+        <input type="password" required minlength="8" placeholder="escreva a pass" pattern="[A-Za-z]{3}"><!--perguntar a o que está errado-->
+        <br>
+        <input type="submit">
+    </form>
+</body>
+</html>
