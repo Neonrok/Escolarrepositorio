@@ -1,0 +1,34 @@
+body{
+    background-color: #070606;
+    font-family: "Raleway",sans-serif;
+    position: absolute;
+    left: 5%;
+}
+.titulo{
+    color: #ffffff;
+    font-size: 72px;
+    max-width: 1000px;
+    height: 125px;
+    
+}
+.subtitulo{
+    color: #BDBDBD;
+    max-width: 500px;
+    font-size: 18px;
+}
+.butão{
+    background-color: #2B892E;
+    color: #FFFFFF;
+    position: relative;
+    height: 50px;
+    width: 125px;
+    font-size: 18px;
+    place-items: center;
+    display: grid;
+    border-radius: 25px;
+    
+}
+.img{
+    max-width: 75%;
+    max-height: 75%;
+}
