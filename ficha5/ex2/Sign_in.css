@@ -1,0 +1,37 @@
+body{
+    background-color: #c1dcdc;
+    color: #1a1a1a;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 80px;
+    padding-top: 120px;
+    padding-right: 80px;
+    padding-bottom: 120px;
+}
+h1{
+    font-size: 50px;
+}
+.info{
+    font-size: 16px;
+    border: 0px;
+    border-radius: 12px;
+    width: 400px;
+    padding: 18px;
+}
+.bla{
+    font-size: 18px;
+    font-weight: medium;
+}
+.sub{
+    background-color: #1a1a1a;
+    color: #ffffff;
+    cursor: pointer;
+    border: 0cm;
+    border-radius: 12px;
+    font-size: 16px;
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+
+}
