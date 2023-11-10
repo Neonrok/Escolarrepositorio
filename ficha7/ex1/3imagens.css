@@ -1,0 +1,10 @@
+body{
+    background-color: #000;
+
+}
+.pai{
+    padding: 80px;
+}
+.filho{
+    width: 300px;
+}
