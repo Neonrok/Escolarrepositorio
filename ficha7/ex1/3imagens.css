@@ -3,8 +3,11 @@ body{
 
 }
 .pai{
+    display:flex;
+    justify-content: space-around;
     padding: 80px;
 }
-.filho{
+.img{
     width: 300px;
+    height: auto;
 }
