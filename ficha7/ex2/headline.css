@@ -51,11 +51,9 @@ p{
     margin-left: 35px;
 }
 .img{
-    max-width: 300px;
+    max-width: 465px;
     height: auto;
 }
-.casa{
-    display: flex;
-    justify-content: flex-end;
-    align-self: start;
+img{
+    float: right;
 }
