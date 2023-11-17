@@ -1,0 +1,10 @@
+body{
+    background-color: #FFFFFF;
+}
+.caixaprime{
+    padding: 80px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-column-start: 1;
+    row-gap: 60px;
+}
