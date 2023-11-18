@@ -1,18 +1,35 @@
 body{
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     color: #1a1a1a;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-size: 16px;
     padding: 80px;
 }
-
-.Box{
+.caixa{
     border: 4px, solid, #ececec;
     border-radius: 20px;
     padding: 20px;
     max-width: 400px;
+    height: auto;
 }
-
-.img{
-    width: 400px;
+.Imagem{
     border-radius: 20px;
+    width: 400px;
+    height: auto;
+}
+.slogan{
+    color: #0e855b;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+.texto{
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.preço{
+    margin-top: 5px;
+    margin-bottom: 0px;
 }
