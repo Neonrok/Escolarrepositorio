@@ -1,0 +1,35 @@
+body{
+    Padding: 80px;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: 'Inter var', sans-serif;
+}
+
+.tabelado{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 60px;
+    grid-column-gap: 30px;
+}
+
+.img{
+    width: 295px;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 16px;
+    margin-bottom: 6px;  
+}
+
+.nome{
+    margin: 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+.preço{
+    margin: 0;
+    font-size: 24px;
+    font-weight: 400px;
+}
+.caixinha:hover .preço{
+    color: #3563E9;
+}
