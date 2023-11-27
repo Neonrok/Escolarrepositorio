@@ -1,0 +1,16 @@
+body{
+    background-color: #4E29AF;
+    color: #FFD700;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+.cartão{
+    padding: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.cartão1{
+    border: 1px, solid #FFD700
+}
