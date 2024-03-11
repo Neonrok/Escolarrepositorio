@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a-scene>
+        <a-cylinder position="7 2.5 7" radius="0.5" height="0.5" ></a-cylinder>
+        <a-box position="7 3.5 7" rotation="0 0 0" color="#FDFFE2" height="1.5" width="4.5" depth="1.5"></a-box>
+        <a-box position="7 1 7" rotation="0 0 0" color="#FDFFE2" height="2.5" width="2.5" depth="1.5"></a-box>
+        <a-box position="5.3 -1 7" rotation="0 0 0" color="#FDFFE2" height="3.5" width="1" depth="1"></a-box>
+        <a-box position="8.7 -1 7" rotation="0 0 0" color="#FDFFE2" height="3.5" width="1" depth="1"></a-box>
+        <a-box position="4.6 3.5 5" rotation="90 0 0" color="#FDFFE2" height="3.5" width="1" depth="1"></a-box>
+        <a-box position="9.7 2.7 6" rotation="45 0 0" color="#FDFFE2" height="3.5" width="1" depth="1"></a-box>
+        <a-box position="7 4 6" rotation="0 0 0" color="#FDFFE2" height="1.5" width="1" depth="1"></a-box>
+        <a-box position="6.7 4 5.6" rotation="0 0 0" color="#000000" height="0.3" width="0.3" depth="0.3"></a-box>
+        <a-box position="7.3 4 5.6" rotation="0 0 0" color="#000000" height="0.3" width="0.3e" depth="0.3"></a-box>
+        <a-box position="7 3.2 5.5" rotation="0 0 0" color="#000000" height="1" width="0.6" depth="0.1"></a-box>
+        <a-box position="7 2.9 5.49" rotation="0 0 0" color="#ff0000" height="0.3" width="0.4" depth="0.1"></a-box>
+
+        <a-sky color="#9B00FF"></a-sky>
+      </a-scene>
+</body>
+</html>
+      
