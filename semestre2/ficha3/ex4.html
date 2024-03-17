@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        var numeroAleatorio = (100 + Math.floor(Math.random() * 900)).toString();
+
+        var numerais = numeroAleatorio.split("");
+
+        console.log(numeroAleatorio);
+
+        if (numerais[0] == numerais[2]) {
+            console.log("é capicua");
+        } else {
+            console.log("não é capicua");
+        }
+
+    </script>
+</body>
+</html>
